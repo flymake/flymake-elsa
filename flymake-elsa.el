@@ -42,7 +42,7 @@
   :link '(url-link :tag "Github" "https://github.com/emacs-eask/flymake-elsa"))
 
 (defconst flymake-elsa-err-line-patterns
-  '(("^\\(.*\\):\\([0-9]+\\):\\([0-9]+\\): \\(Error\\|Warning\\): \\(.*\\)$" 1 2 3 5)))
+  '(("^\\(.*\\):\\([0-9]+\\):\\([0-9]+\\):\\(error\\|warning\\):\\(.*\\)$" 1 2 3 5)))
 
 (defun flymake-elsa-command (filename)
   "Construct a command that flymake can use to check elisp source."
