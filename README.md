@@ -30,4 +30,4 @@ to initialize your `exec-path` from your shell's `$PATH`.
 
 ## Usage
 
-Just use Flycheck as usual in your [Eask](https://github.com/emacs-eask/cli) projects.
+Just use Flymake as usual in your [Eask](https://github.com/emacs-eask/cli) projects.
