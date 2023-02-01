@@ -13,6 +13,13 @@ The recommended way to use Elsa is with [Eask](https://github.com/emacs-eask/cli
 
 ## Installation
 
+Install `flymake-elsa` from [JCS-ELPA](https://jcs-emacs.github.io/jcs-elpa/) and add the following to your
+`init.el`:
+
+``` emacs-lisp
+(add-hook 'emacs-lisp-mode-hook #'flymake-elsa-load)
+```
+
 We require that `eask` executable is usable from Emacs.  You can test
 this by evaluating `(executable-find "eask")`.  If this returns `nil`,
 you need to add your eask directory to `exec-path`.
