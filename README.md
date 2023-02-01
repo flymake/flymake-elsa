@@ -7,6 +7,20 @@
 
 Integration of [Elsa](https://github.com/emacs-elsa/Elsa) into [Flymake]().
 
+# Elsa in Eask projects
+
+The recommended way to use Elsa is with [Eask](https://github.com/emacs-eask/cli).
+
+## Installation
+
+We require that `eask` executable is usable from Emacs.  You can test
+this by evaluating `(executable-find "eask")`.  If this returns `nil`,
+you need to add your eask directory to `exec-path`.
+
+You can also use the amazing
+[exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
+to initialize your `exec-path` from your shell's `$PATH`.
+
 ## Usage
 
 Just use Flycheck as usual in your [Eask](https://github.com/emacs-eask/cli) projects.
