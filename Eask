@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flymake-elsa"
          "0.1.0"
          "Flymake integration for Elsa")
